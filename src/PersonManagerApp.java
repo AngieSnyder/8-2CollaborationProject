@@ -8,7 +8,7 @@ public class PersonManagerApp {
 		System.out.println();
 		
 		// Get user input
-		String chioce = "y";
+		String choice = "y";
 		while (choice.equalsIgnoreCase("y")) {
 			String personType = Console.getString("Create customer or employee? (c/e): ","c","e");
 			System.out.println();
